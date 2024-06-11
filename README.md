@@ -1,4 +1,4 @@
-# Portfolio_ML
+# Projects_ML
 
 머신러닝 프로젝트 설명서
 
