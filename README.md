@@ -20,7 +20,7 @@
 
     - 전처리: Variable Selection, correlation coefficient
  
-    - 시각화: Daily physical activity summaries>
+    - 시각화: Daily physical activity summaries
     
   (3) Result & Lesson
     - Fitbit 데이터와 설문조사 데이터를 병합하여 빅데이터 형성
