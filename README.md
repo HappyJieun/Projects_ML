@@ -64,8 +64,42 @@
 - 보러가기: [Link](https://github.com/HappyJieun/Microbiome)
 
  ***
+
+  # 3. 폰트 인식 프로그램 개발 
+  2022.06 / R, R Shiny / Personal project
+
+- Background 
+  <p> 일반 사용자들이 웹 페이지나 이미지에서 사용된 폰트를 식별하고 싶어하는 경우가 많음. 인공지능 기반 폰트 인식 프로그램은 이러한 사용자가 손쉽게 폰트를 식별하고 정보를 얻을 수 있도록 도와줌. </p>
+
+- Summary
  
- # 3. 고차원 생체 데이터 기반 개인 맞춤형 심장병 예측 모델 개발
+	(1) Data Collection
+    - UCI database
+      
+      Lyman,Richard. (2016). Character Font Images. UCI Machine Learning Repository. https://doi.org/10.24432/C5X61Q
+  
+	(2) Contribution
+    - 데이터 수집 
+   
+    - 전처리: merge, 픽셀 값 추출, anova 검정
+      
+    - KNN, C5.0, LogitBoost 등 5가지의 분류 알고리즘 적용
+    
+  (3) Result & Lesson
+    - 다중 분류 모델 선정 및 평균 90% 이상의 정확도
+      
+    - 손글씨와 컴퓨터 글씨도 구분 가능
+ 
+    - 픽셀 정보 데이터를 업로드하면 글꼴 이름을 예측해주는 웹서비스 구현
+ 
+    - 병렬 처리
+  
+  
+- 보러가기: [Link](https://github.com/HappyJieun/Font)
+
+ ***
+ 
+ # 6. 고차원 생체 데이터 기반 개인 맞춤형 심장병 예측 모델 개발
   2023.09 ~ 2023.11 / Python / Team project
 
 - Background 
@@ -74,12 +108,16 @@
 - Summary
  
 	(1) Data Collection
-    - UCI database 
+    - UCI database
+    
+    	 Janosi,Andras, Steinbrunn,William, Pfisterer,Matthias, and Detrano,Robert. (1988). Heart Disease. UCI Machine Learning Repository. https://doi.org/10.24432/C52P4X. 
+ 
+
   
 	(2) Contribution
     - 데이터 선정 및 수집
     
-    - 시각화 및 전처리 (Variable selection)
+    - 시각화 및 전처리 (Variable selection, PCA)
       
     - 머신러닝 모델 적용 및 Hyper Parameters 튜닝
     
@@ -95,7 +133,7 @@
 
  ***
  
- # 4. 생체 신호 데이터를 이용한 흡연 여부 예측 모델링
+ # 7. 생체 신호 데이터를 이용한 흡연 여부 예측 모델링
   2023.11 ~ 2024.02 / R / Team project
 
 - Background 
@@ -104,7 +142,7 @@
 - Summary
  
 	(1) Data Collection
-    - Kaggle
+	 - Kaggle
   
 	(2) Contribution
     - 데이터 선정 및 수집
